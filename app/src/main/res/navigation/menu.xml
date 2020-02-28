@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/menu"
+    app:startDestination="@+id/home">
+
+    <fragment
+        android:id="@+id/home"
+        android:name="com.e.assignment_3.home"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_Home_to_lunch"
+            app:destination="@id/lunch_menu" />
+        <action
+            android:id="@+id/action_home_to_starter_menu"
+            app:destination="@id/starter_menu" />
+    </fragment>
+    <fragment
+        android:id="@+id/dinner_menu"
+        android:name="com.e.assignment_3.dinner"
+        android:label="fragment_dinner"
+        tools:layout="@layout/fragment_dinner" >
+        <action
+            android:id="@+id/action_dinner_menu_to_drink_menu"
+            app:destination="@id/drink_menu" />
+    </fragment>
+    <fragment
+        android:id="@+id/lunch_menu"
+        android:name="com.e.assignment_3.lunch"
+        android:label="fragment_lunch"
+        tools:layout="@layout/fragment_lunch" >
+        <action
+            android:id="@+id/action_lunch_menu_to_drink_menu"
+            app:destination="@id/drink_menu" />
+    </fragment>
+    <fragment
+        android:id="@+id/starter_menu"
+        android:name="com.e.assignment_3.starter"
+        android:label="fragment_starter"
+        tools:layout="@layout/fragment_starter" >
+        <action
+            android:id="@+id/action_starter_menu_to_dinner_menu"
+            app:destination="@id/dinner_menu" />
+    </fragment>
+    <fragment
+        android:id="@+id/drink_menu"
+        android:name="com.e.assignment_3.drink_menu"
+        android:label="fragment_drink_menu"
+        tools:layout="@layout/fragment_drink_menu" >
+        <action
+            android:id="@+id/action_drink_menu_to_order_summary"
+            app:destination="@id/order_summary" />
+    </fragment>
+    <fragment
+        android:id="@+id/order_summary"
+        android:name="com.e.assignment_3.order_summary"
+        android:label="fragment_order_summary"
+        tools:layout="@layout/fragment_order_summary" >
+        <action
+            android:id="@+id/action_order_summary_to_home2"
+            app:destination="@id/home" />
+    </fragment>
+</navigation>

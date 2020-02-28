@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".drink_menu">
+
+    <Button
+        android:id="@+id/button_summary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="361dp"
+        android:layout_marginLeft="162dp"
+        android:layout_marginBottom="25dp"
+        android:background="#4990EB"
+        android:text="Order summary"/>
+
+    <CheckBox
+        android:id="@+id/alcohol_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="42dp"
+        android:layout_marginTop="100dp"
+        android:checked="false"
+        android:text="Guinness – €4.80 " />
+
+    <CheckBox
+        android:id="@+id/alcohol_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="42dp"
+        android:layout_marginTop="150dp"
+        android:text=" Whiskey – €4.20 "/>
+
+    <CheckBox
+        android:id="@+id/alcohol_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="42dp"
+        android:layout_marginTop="200dp"
+        android:text="Lucozade – €2.20 "/>
+
+</FrameLayout>

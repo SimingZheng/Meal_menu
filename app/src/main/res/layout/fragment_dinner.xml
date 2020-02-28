@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".dinner">
+
+    <Button
+        android:id="@+id/button_drink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="361dp"
+        android:layout_marginLeft="162dp"
+        android:layout_marginBottom="25dp"
+        android:background="#4990EB"
+        android:text="Drink menu"/>
+
+    <CheckBox
+        android:id="@+id/dinner_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="42dp"
+        android:layout_marginTop="100dp"
+        android:checked="false"
+        android:text="Pizza with chips – €9.80€ " />
+
+    <CheckBox
+        android:id="@+id/dinner_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="42dp"
+        android:layout_marginTop="150dp"
+        android:text="Chicken roll with chips – €5.50 "/>
+
+    <CheckBox
+        android:id="@+id/dinner_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="42dp"
+        android:layout_marginTop="200dp"
+        android:text="Fish and chips – €9.50 "/>
+
+</FrameLayout>

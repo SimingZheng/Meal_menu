@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".starter">
+
+    <Button
+        android:id="@+id/button_dinner_main_meal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="361dp"
+        android:layout_marginLeft="162dp"
+        android:layout_marginBottom="25dp"
+        android:background="#4990EB"
+        android:text="Dinner main dish meal"/>
+
+    <CheckBox
+        android:id="@+id/starter_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="42dp"
+        android:layout_marginTop="100dp"
+        android:checked="false"
+        android:text="Soup – €3.40 " />
+
+    <CheckBox
+        android:id="@+id/starter_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="42dp"
+        android:layout_marginTop="150dp"
+        android:text="Salad – €4.00 "/>
+
+</FrameLayout>
